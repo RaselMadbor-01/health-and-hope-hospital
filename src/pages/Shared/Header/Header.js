@@ -61,7 +61,7 @@ const Header = () => {
               {users.email ? (
                 <ul className="navbar-nav ms-auto mb-lg-0">
                   <li className="nav-item">
-                    <p className="mt-2">{users.displayName}</p>
+                    <p style={{fontSize:"12px",marginTop:"13px"}}>{users.displayName}</p>
                   </li>
                   <li className="nav-item">
                     <button

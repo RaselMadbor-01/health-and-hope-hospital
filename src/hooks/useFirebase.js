@@ -1,4 +1,4 @@
-import { getAuth, signInWithPopup,onAuthStateChanged,signOut, createUserWithEmailAndPassword,signInWithEmailAndPassword,sendEmailVerification,sendPasswordResetEmail,GoogleAuthProvider ,updateProfile} from "firebase/auth";
+import { getAuth, signInWithPopup,onAuthStateChanged,signOut,GithubAuthProvider, createUserWithEmailAndPassword,signInWithEmailAndPassword,sendEmailVerification,sendPasswordResetEmail,GoogleAuthProvider ,updateProfile} from "firebase/auth";
 import { useEffect, useState } from "react";
 import initializeAuthentication from "../pages/Login/firebase.init";
 
@@ -10,6 +10,7 @@ const useFirebase = () => {
   const[isLoading,setIsLoading]=useState(true);
   const auth = getAuth();
   const googleProvider = new GoogleAuthProvider();
+  const githubProvider = new GithubAuthProvider();
 
 
   const signInWithGoogle = () => {
@@ -31,6 +32,27 @@ const useFirebase = () => {
       
      
   };
+  const signInWithGithub=()=>{
+    setIsLoading(true);
+    signInWithPopup(auth, githubProvider)
+  .then((result) => {
+    const credential = GithubAuthProvider.credentialFromResult(result);
+    const user = result.user;
+    setUsers(user);
+    setError("")
+   })
+   .finally(()=>{setIsLoading(false)});
+  //.catch((error) => {
+  //   // Handle Errors here.
+  //   const errorCode = error.code;
+  //   const errorMessage = error.message;
+  //   // The email of the user's account used.
+  //   const email = error.email;
+  //   // The AuthCredential type that was used.
+  //   const credential = GithubAuthProvider.credentialFromError(error);
+  //   // ...
+  // });
+  }
   const registerWithEmailAndPassword=(name,email,password)=>{
     setIsLoading(true);
     createUserWithEmailAndPassword(auth, email, password)
@@ -118,6 +140,7 @@ const useFirebase = () => {
       resetPassword,
       registerWithEmailAndPassword,
       loginWithEmailAndPassword,
+      signInWithGithub,
       logOut
   }
 };
