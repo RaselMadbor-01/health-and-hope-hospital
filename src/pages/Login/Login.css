@@ -1,0 +1,41 @@
+.form-control {
+    margin:5px 0;
+    border:1px solid #91b3fa;
+    color:#91b3fa;
+    font-weight: 500;
+}
+.form-control::placeholder{
+    color:#91b3fa;
+    font-weight: 500;
+}
+.submit-btn{
+
+    background-color: #91b3fa ;
+    color:#fff;
+}
+.login button{
+    border: none;
+    padding: 10px;
+    color: #91b3fa;
+    background-color: #fff;
+    margin-bottom: 5px;
+    font-weight: 500;
+    border:1px solid #91b3fa;
+    border-radius:10px;
+}
+.login img{
+    padding-right:25px;
+}
+.login-Or{
+    color:#91b3fa;
+}
+.login button:hover{
+    color:#fff;
+    background-color: #91b3fa;
+}
+.toggle-button{
+    cursor: pointer;
+}
+.toggle-button:hover{
+    border-bottom:3px solid #91b3fa;
+}

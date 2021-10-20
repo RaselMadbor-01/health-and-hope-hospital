@@ -1,0 +1,8 @@
+
+
+.appointment-section{
+    background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url("../../images/background/photo4.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}

@@ -1,0 +1,48 @@
+.feature-section{
+    position: absolute;
+    top: 625px;
+    left: 60px;
+   
+}
+.font-icons{
+    font-size:50px;
+}
+.feature-element{
+    background-color:#0dcaf0;
+}
+@media only screen and (max-width: 1200px) {
+    .feature-section{
+        position: absolute;
+        top: 625px;
+        left:28px;
+    }
+    
+}
+@media only screen and (max-width: 992px) {
+    .feature-section{
+        position: absolute;
+        top: 625px;
+        left:20px;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .feature-section{
+        position: absolute;
+        top: 625px;
+        left: 30px;
+        width: 90%;
+    }
+    
+}
+
+
+@media only screen and (max-width: 576px) {
+    .feature-section{
+        position: absolute;
+        top: 625px;
+        left: 82px;
+        width: 75%;
+    }
+    
+}

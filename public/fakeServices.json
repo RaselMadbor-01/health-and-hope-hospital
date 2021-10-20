@@ -1,0 +1,61 @@
+[{
+    "id": 1,
+    "name": "CARDIOLOGY",
+    "details": "Cardiology provides a broad range of services in the diagnosis and management of heart disease. The department comprises a strong team of doctors from various cardiac sub-specialties to treat all types of heart disease.",
+    "image": "https://i.imgur.com/TUsXMPe.png"
+  }, {
+    "id": 2,
+    "name": "UROLOGY",
+    "details": "Urology at Health And Hope Hospital is dedicated to providing state-of-the-art medical and surgical care for all specialties of male and female urology (both adult and pediatric), as well as male infertility problems. Each year, our highly experienced urologists treat hundreds of patients, providing expert diagnosis, care and surgeries for complete range of urological conditions.",
+    "image": "https://i.imgur.com/LWU6lbv.png"
+  }, {
+    "id": 3,
+    "name": "ONCOLOGY",
+    "details": "Oncology integrates health care personnel & diagnostic facilities in an environment dedicated to the care of Cancer patients of both adult & Pediatrics.",
+    "image": "https://i.imgur.com/S7Nn0IG.png"
+  }, {
+    "id": 4,
+    "name": "PEDIATRIC & NEONATOLOGY",
+    "details": "Paediatrics is one of the most organized and dynamic departments of Health And Hope Hospital. The faculty of this department are unified by an unflinching commitment to excellence, professionalism, service, and dedication. We believe that our success as a department is dependent upon exceptional achievements in clinical care, patient’s welfare, team work and tender loving care for the sick babies. ",
+    "image": "https://i.imgur.com/R27Z9us.png"
+  }, {
+    "id": 5,
+    "name": "GENERAL & LAPAROSCOPIC SURGERY",
+    "details": "General & Laparoscopic Surgery at BSHL is committed to providing medical students, residents and fellows with a wide array of surgical training including open general surgery procedures in the treatment of morbid obesity, gastroesophageal reflux disease, pancreatic and biliary diseases, hernias and colorectal diseases with the focus of providing the best in patient care.",
+    "image": "https://i.imgur.com/SQsOywG.png"
+  }, {
+    "id": 6,
+    "name": "PLASTIC & AESTHETIC SURGERY",
+    "details": "Reconstructive & Cosmetic Surgery of Health And Hope Hospital provides exceptional and extensive services to its patients in several aspects of Plastic Surgery.",
+    "image": "https://i.imgur.com/HCJhyGW.png"
+  }, {
+    "id": 7,
+    "name": "NEPHROLOGY",
+    "details": "Nephrology of Health And Hope Hospital is a leading kidney disease related health service provider of all modalities and kidney support, includes diagnosis, evaluation, and management of all acute and chronic disease conditions. ",
+    "image": "https://i.imgur.com/fvKNx13.png"
+  }, {
+    "id": 8,
+    "name": "GASTROENTEROLOGY & HEPATOLOGY",
+    "details": "Department of Gastroenterology & Hepatology is devoted to the clinical care of patients with gastrointestinal and liver disorders. The department is home to excellent patient care, and our specialists employ the most advanced diagnostic and therapeutic endoscopy services to ensure the best outcomes for each patient",
+    "image": "https://i.imgur.com/m2T4Aoo.png"
+  }, {
+    "id": 9,
+    "name": "DERMATOLOGY",
+    "details": "The mission of the Department of Dermatology at Health And Hope Hospital is to provide superior comprehensive dermatologic care to our patients, exceed our patients' expectations in service and satisfaction, and advance the science of dermatology through research and education.",
+    "image": "https://i.imgur.com/VaaO1Qa.png "
+  }, {
+    "id": 10,
+    "name": "NEUROSURGERY",
+    "details": "Neurosurgery is the surgical specialty concerned with diagnosis, treatment and rehabilitation of patients with disorders that affect the nervous system, including the brain, spinal column, spinal cord, peripheral nerves, and extra-cranial cerebrovascular system. These disorders may be due to a birth defect, traumatic injury, cancer or other reasons.",
+    "image": "https://i.imgur.com/198Jwzn.png"
+  }, {
+    "id": 11,
+    "name": "NEUROLOGY",
+    "details": "Neuro Medicine is dedicated to exceptional patient care center is fortunate to have state-of-the-art facilities for evaluating patients with neurological diseases, performing the latest clinical and basic science investigations.",
+    "image": "https://i.imgur.com/6xbkSh6.png"
+  }, {
+    "id": 12,
+    "name": "ICU",
+    "details": "intensive care in Health And Hope Hospital is a well-equipped one with all the modern and state of the art facilities and served by experienced doctors under the supervision of consultant intensivists. The department is well integrated with all of our other departments in its services.",
+    "image": "https://i.imgur.com/lpNrifo.png"
+  }]

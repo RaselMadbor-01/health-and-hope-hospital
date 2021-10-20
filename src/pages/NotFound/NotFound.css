@@ -1,0 +1,8 @@
+.not-found-btn{
+    background-color: #151559;
+    color:#bf39b8;
+}
+.not-found-btn:hover{
+    background-color: #bf39b8;
+    color:#151559;
+}

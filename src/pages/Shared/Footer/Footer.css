@@ -1,0 +1,13 @@
+.footer-links{
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    list-style: square;
+    line-height: 30px;
+}
+
+.footer-links li:hover{
+    border-bottom:1px solid #fff;
+    width:115px;
+
+}

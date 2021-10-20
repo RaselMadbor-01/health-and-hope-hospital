@@ -1,0 +1,39 @@
+
+.banner-img{
+    filter:brightness(0.5);
+}
+.carousel-caption {
+    bottom: 6.25rem;
+}
+.carousel-indicators {
+    bottom: 40px;
+}
+.banner-button{
+    border: 1px solid #078ec0;
+    border-radius:2px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    background-color: #0dcaf0;
+    color:#fff !important;
+    line-height: 1.5;
+}
+.banner-button:hover{
+    color:none;
+    background-color:rgba(255, 0, 0, 0);
+    border:1px solid #078ec0;
+    
+}
+.banner-button a{
+    color:#fff;
+}
+.learn-btn a:hover{
+    color:#fff !important;
+   
+}
+@media only screen and (max-width: 576px) {
+    .carousel-indicators {
+        bottom: 60px;
+    }
+
+}

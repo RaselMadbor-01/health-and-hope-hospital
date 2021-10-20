@@ -1,0 +1,43 @@
+
+.user-img{
+    width: 30%;
+    border-radius: 50px;
+}
+.logo-name{
+    font-size:30px;
+}
+.sign-out-btn{
+    border-radius:2px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    background-color: #0dcaf0;
+    line-height: 1.5;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#0dcaf0;
+    margin-right:5px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    border-bottom:2px solid #0dcaf0;
+  
+
+}
+.navbar-light .navbar-nav .nav-link.active:hover{
+    border-bottom:2px solid #0dcaf0;
+   
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color:#078ec0;
+    border-bottom:2px solid #0dcaf0;
+}
+a{
+    text-decoration: none;
+    color:#0dcaf0;
+
+}
+@media only screen and (max-width: 552px) {
+    .logo-name{
+        font-size:20px;
+    }
+}

@@ -1,0 +1,28 @@
+.doctor-section img{
+ position:relative;
+
+}
+.doctors-btn{
+    position: absolute;
+    top: 72%;
+    left: 30%;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #0dcaf0;
+    display:none;
+    font-weight:700;
+}
+.doctor-section:hover .doctors-btn{
+    display:block;
+}
+.doctors-detials-btn a{
+    color:#0dcaf0;
+}
+
+a{
+    color:#0dcaf0;
+}
+a:hover{
+    color:#0dcaf0 !important;
+}

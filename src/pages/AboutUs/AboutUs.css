@@ -1,0 +1,13 @@
+.mision-part{
+    padding:0;
+}
+.mision-part li{
+    list-style: none;
+    padding:5px 0
+
+}
+.vision-text{
+    padding: 20px;
+    border-left: 8px solid #0dcaf0;
+
+}
