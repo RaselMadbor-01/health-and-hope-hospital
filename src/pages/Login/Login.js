@@ -9,7 +9,7 @@ import facbookIcon from "../../images/icons/fecbook.png";
 import "./Login.css";
 
 const Login = () => {
-  const { users,error ,signInWithGoogle,signInWithGithub, registerWithEmailAndPassword,loginWithEmailAndPassword,resetPassword } = useAuth();
+  const { users,error ,signInWithGoogle, registerWithEmailAndPassword,loginWithEmailAndPassword,resetPassword } = useAuth();
   const [isLoggedIn, setIsLoggedIn] = useState("true");
   //use-react-hook-form
   const {
@@ -140,10 +140,10 @@ const Login = () => {
                     <img src={githubIcon} alt="" />
                     FacbookSignIn
                   </button> */}
-                  <button onClick={signInWithGithub}>
-                    <img src={facbookIcon} alt="" />
+                  {/* <button onClick={signInWithGithub}>
+                    <img src={githubIcon} alt="" />
                     GithubSignIn
-                  </button>
+                  </button> */}
                 </div>
               </div>
             ) : (
