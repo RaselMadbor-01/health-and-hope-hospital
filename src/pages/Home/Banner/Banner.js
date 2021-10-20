@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import photo1 from "../../../images/background/photo1.png";
 import photo2 from "../../../images/background/photo2.png";
 import photo3 from "../../../images/background/photo3.png";
+import 'animate.css';
 import "./Banner.css";
 
 const Banner = () => {
@@ -39,7 +40,7 @@ const Banner = () => {
           <div className="carousel-item active">
             <img src={photo1} className="d-block w-100 banner-img" height="580" alt="..." />
             <div className="carousel-caption d-md-block">
-              <h1 className="fs-1 fw-bold mb-4">Caring Health is Important Than All</h1>
+              <h1 className="fs-1 fw-bold mb-4 animate__animated animate__backInRight">Caring Health is Important Than All</h1>
               <p className="sm-lg-sm md-lh-lg fs-5 pb-2">
               Health And Hope Hospital has all the characteristics of a world-class hospital with wide range of services and specialists, equipments and technology, ambience and service quality.
               </p>
@@ -52,7 +53,7 @@ const Banner = () => {
          <div className="carousel-item">
             <img src={photo2} className="d-block w-100 banner-img" height="580" alt="..." />
             <div className="carousel-caption  d-md-block">
-              <h1 className="fs-1 fw-bold mb-4">Exceptinal Health Care for Woman</h1>
+              <h1 className="fs-1 fw-bold mb-4 animate__animated animate__backInRight">Exceptinal Health Care for Woman</h1>
               <p className="sm-lg-sm md-lh-lglh-lg fs-5 pb-2">
               The hospital is a showcase of synergy of medical technology and advances in ICT Division through paperless medical records. The skilled nurses, technologists and administrators of Health And Hope Hospital.
               </p>
@@ -65,7 +66,7 @@ const Banner = () => {
           <div className="carousel-item">
             <img src={photo3} className="d-block w-100 banner-img" height="580" alt="..." />
             <div className="carousel-caption  d-md-block">
-              <h1 className="fs-1 fw-bold mb-4">We Offer Highly Treatments Children</h1>
+              <h1 className="fs-1 fw-bold mb-4 animate__animated animate__backInRight">We Offer Highly Treatments Children</h1>
               <p className="sm-lg-sm md-lh-lglh-lg fs-5 pb-2">
               To be a renowned organization at the leading edge of Medicine, providing quality healthcare to meet our nation's aspirations.
               </p>
