@@ -1,4 +1,5 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState} from "react";
+import { useLocation } from 'react-router-dom';
 import { ErrorMessage } from "@hookform/error-message";
 import { useForm } from "react-hook-form";
 import useAuth from "../../hooks/useAuth";
@@ -11,6 +12,13 @@ import "./Login.css";
 const Login = () => {
   const { users,error ,signInWithGoogle, registerWithEmailAndPassword,loginWithEmailAndPassword,resetPassword } = useAuth();
   const [isLoggedIn, setIsLoggedIn] = useState("true");
+
+
+
+  let location=useLocation();
+  console.log(location.state?.from);
+
+ 
   //use-react-hook-form
   const {
     register,
@@ -23,6 +31,21 @@ const Login = () => {
   //password-verify
   const password = useRef({});
   password.current = watch("password", "");
+
+
+  //
+
+  // const googleLogIn=()=>{
+  //   signInWithGoogle()
+  //   .then((result) => {
+  //     const user = result.user;
+  //     setUsers(user);
+  //     setError("");
+  //   })
+  //   .finally(()=>{setIsLoading(false)});
+  // }
+
+
 //toggle-the-users
   const handleToggleLogin = (e) => {
     setIsLoggedIn(e.target.checked);
@@ -34,6 +57,8 @@ const Login = () => {
     const{name,email,password}=data;
     isLoggedIn?loginWithEmailAndPassword(email,password) :registerWithEmailAndPassword(name,email,password)
   };
+
+
 
   return (
     <div>
